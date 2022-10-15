@@ -1,0 +1,129 @@
+@charset "UTF-8"
+
+*{
+    box-sizing: border-box;
+  }
+
+html, body {
+    height: 100%
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit";
+    display: grid;
+    place-content: center;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    width: 340px;
+    height: 500px;
+    display: block;
+    border-radius: 17px;
+}
+
+.nft-img{
+    width: 290px;
+    height: 260px;
+    position: relative;
+    bottom: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+h1{
+    position: relative;
+    top: 285px;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    font-weight: 400;
+}
+
+.desc{
+    position: relative;
+    top: 285px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.price{
+    position: relative;
+    top: 287px;
+    left: 45px;
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    position: relative;
+    top: 253px;
+    left: 240px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.name {
+    position: relative;
+    top: 255px;
+    font-size: 15px;
+    left: 80px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    position: relative;
+    bottom: 80px;
+    width: auto;
+    height: 30px;
+    right: 60px;
+    border: 1px solid white;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.eth{
+    position: relative;
+    bottom: 140px;
+    width: auto;
+    height: 20px;
+    left: 2px;
+}
+
+hr{
+    position: relative;
+    top: 252px;
+    width: 290px;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.clock{
+    position: relative;
+    bottom: 141px;
+    left: 215px;
+}
+
+cite{
+    position: relative;
+    top: 220px;
+    left: 160px;
+    color: white;
+    font-style: normal;
+}
+
+.view{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 370px;
+    left: 110px;
+}
