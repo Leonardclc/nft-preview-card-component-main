@@ -1,4 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -10,7 +13,7 @@ html, body {
 
 body {
     background-color: hsl(217, 54%, 11%);
-    font-family: "Outfit";
+    font-family: 'Outfit', sans-serif;
     display: grid;
     place-content: center;
 }
@@ -32,6 +35,9 @@ main {
     margin-right: auto;
     display: block;
     border-radius: 10px;
+    transition: .5s ease;
+    background-color: aqua;
+    z-index: 2;
 }
 
 h1{
@@ -126,4 +132,13 @@ cite{
     position: relative;
     bottom: 370px;
     left: 110px;
+}
+
+h1:hover, cite:hover{
+    color: hsl(178, 100%, 50%);
+  }
+
+.nft-img:hover {
+    opacity: 0.5;
+    z-index: 0;
 }
